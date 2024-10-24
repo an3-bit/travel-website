@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Travel Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+
+<header class="header">
+    <a href="#home" class="logo">Fast <span>Travel</span></a>
+    <i class="fa-solid fa-bars" id="menu-icon"></i>
+<!--navigation section-->
+<nav class="nav-bar">
+    <a href="#home" class="active">Home</a>
+    <a href="#packages">Packages</a>
+    <a href="#destinations">Destinations</a>
+    <a href="#contact">Contact</a>
+</nav>
+</header>
+<!--home page-->
+<section class="home" id="home">
+
+    <div class="home-content">
+        <h1>Welcome to <br>Fast <span>Travel</span></h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquam autem cupiditate deleniti doloribus earum iusto quia repellendus rerum saepe? Aperiam atque blanditiis cumque et nihil perspiciatis quos reprehenderit, sint.</p>
+        <a href="#" class="btn">Read More</a>
+    </div>
+</section>
+<section class="packages" id="packages">
+<h2 class="heading">Packages</h2>
+    <div class="packages-container">
+        <div class="packages-box">
+            <i class="fa-solid fa-snowflake"></i>
+            <h3>Tour Package 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+        <h2>$1699.99</h2>
+            <a href="#" class="btn">BUY PACKAGE</a>
+        </div>
+
+        <div class="packages-box">
+            <i class="fa-solid fa-person-skiing"></i>
+            <h3>Tour Package 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <h2>$2499.99</h2>
+            <a href="#" class="btn">BUY PACKAGE</a>
+        </div>
+
+        <div class="packages-box">
+            <i class="fa-solid fa-mountain"></i>
+            <h3>Tour Package 3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+        <h2>$3499.99</h2>
+            <a href="#" class="btn">BUY PACKAGE</a>
+        </div>
+    </div>
+</section>
+<section class="destinations" id="destinations">
+    <h2 class="heading">Destinations</h2>
+    <div class="destinations-container">
+        <div class="destinations-box" data-tilt>
+            <img src="images/2.jpg" alt="">
+            <div class="destinations-info">
+                <h4>Destination 1</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <button class="btn">Explore</button>
+            </div>
+        </div>
+
+         <div class="destinations-box" data-tilt>
+            <img src="images/3.jpg" alt="">
+            <div class="destinations-info">
+                <h4>Destination 2</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <button class="btn">Explore</button>
+            </div>
+        </div>
+
+         <div class="destinations-box" data-tilt>
+            <img src="images/4.jpg" alt="">
+            <div class="destinations-info">
+                <h4>Destination 3</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+            <button class="btn">Explore</button>
+            </div>
+    </div>
+
+         <div class="destinations-box" data-tilt>
+            <img src="images/5.jpg" alt="">
+            <div class="destinations-info">
+                <h4>Destination 4</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+            <button class="btn">Explore</button>
+            </div>
+        </div>
+
+         <div class="destinations-box" data-tilt>
+            <img src="images/6.jpg" alt="">
+            <div class="destinations-info">
+                <h4>Destination 5</h4>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+            <button class="btn">Explore</button>
+            </div>
+        </div>
+
+         <div class="destinations-box" data-tilt>
+            <img src="images/7.jpg" alt="">
+            <div class="destinations-info">
+                <h4>Destination 6</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+            <button class="btn">Explore</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <h2 class="heading">Contact</h2>
+    <form action="#">
+        <div class="input-box">
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email">
+            <input type="number" placeholder="Phone Number">
+        </div>
+
+        <input type="submit" value="Submit" class="btn">
+    </form>
+</section>
+<footer class="footer">
+    <div class="faq">
+        <h2>FAQ</h2>
+        <ul>
+            <li><a href="#">Company</a></li>
+             <li><a href="#">Employment</a></li>
+             <li><a href="#">Order History</a></li>
+             <li><a href="#">Terms & Services</a></li>
+        </ul>
+    </div>
+    <div class="news">
+        <h3>Newsletter</h3>
+        <input type="text" placeholder="Your Email Address">
+        <button>Subscribe</button>
+    </div>
+    <div class="info">
+        <h3>General Information</h3>
+        <div class="phone">
+            <i class="fa-solid fa-phone"></i>
+        <p>+254-742-048-713</p>
+        </div>
+        <ul>
+        <li><a href="#">55034-00200,an3-bit/git</a></li>
+        <li><a href="#">Nairobi,Kenya.</a></li>
+    </ul>
+<div class="icons">
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-solid fa-x"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-linkedin"></i>
+</div>
+    </div>
+
+</footer>
+<script src="script.js"></script>
+<script src="tilt.js"></script>
+</body>
+</html>
