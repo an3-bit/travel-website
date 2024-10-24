@@ -434,10 +434,83 @@ h3{
     font-size: 24px;
     cursor: pointer;
     transition: 0.4s ease;
+    margin-right: 0.5rem;
 }
-
-
-
+.info .icons i:hover{
+    background: white;
+    color: var(--main-color);
+    transform: scale(1.2);
+}
+@media (max-width: 1095px) {
+    .home h1{
+        color: white;
+    }
+    .home p{
+        color: white;
+    }
+    header{
+        padding: 2rem 3%;
+    }
+    section{
+        padding: 10rem 3% 2rem;
+    }
+    .packages{
+        padding-bottom: 7rem;
+    }
+    .packages-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .packages-box .packages-info{
+        justify-content: center;
+    }
+    .destinations-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    footer{
+        padding: 2rem 3%;
+    }
+}
+@media (max-width: 895px) {
+    #menu-icon{
+        display: block;
+    }
+    .navbar{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 50%;
+        padding: 1rem 3%;
+        background: white;
+        border-left: 2px solid var(--main-color);
+        border-bottom: 2px solid var(--main-color);
+        display: none;
+    }
+    .navbar .active{
+        display: block;
+    }
+    .navbar a{
+        display: block;
+        margin: 3rem 0;
+        font-size: 2rem;
+    }
+    .home-content h1{
+        font-size: 5rem;
+    }
+    .packages h2{
+        margin-bottom: 3rem;
+    }
+    .destinations h2{
+        margin-bottom: 3rem;
+    }
+}
+@media (max-width: 780px) {
+    footer{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .info{
+        margin-top: 2rem;
+    }
+}
 
 
 
